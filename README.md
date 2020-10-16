@@ -11,7 +11,7 @@ We were able to obtain the values of test scores for each grade in each school t
 
 #### District Summary 
   - When removing the ninth grade scores from Thomas High School we can see that our district summary data frame does change. The total number of students goes down, and the overall passing rate also decreases. However, the total budget, average Math score, average reading score, percent passing math, and percent passing reading stay the same. The affects on the students and passing rates go down with the removal of the ninth grade students from Thomas High School, because the dishonesty in the ninth grader scores shifts the data of overall passing rate to be lower since their scores were falsified, and data was removed. 
-
+![district_summary](Resources/district_summary.png)
 
 #### School Summary
   - When removing the ninth grade scores from Thomas High School we can see that our school summary data frame changes for Thomas High School only. It significantly decreases their overall passing score because we no longer include the false scores of the ninth grade students. Since the scores were so positively affected by the ninth graders' scores, we can see that there was an issue with the scores reported for that class at Thomas High School.
