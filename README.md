@@ -19,19 +19,25 @@ We were able to obtain the values of test scores for each grade in each school t
   
 #### Replacing Ninth Graders' math and reading scores relative affect
   - When we replace the ninth grade scores NaN and only account for the 10th - 12th graders at Thomas High School, we see that the overall passing for Thomas High School in comparison to other schools we see that there is a very high passing rate compared to other schools in the data set. When we replace the scores, we see that Thomas High School is apart of the top 5 as number 2 statistics wise. Thus we see that Thomas High School is a high performing school, even with the ninth grade scores taken out. However, we aren't able to compare the ninth grade class at Thomas High School to other schools, which takes out data, making Thomas High School look like they are performing better. The passing rate increases immensely when we remove 9th grade from Thomas High School data. 
-
+![top_5](Resources/top_5/png)
 #### Math and reading scores by grade
   - When replacing ninth grade scores at Thomas High School, we see that it negates the scores for 9th graders at Thomas High School but everything else stays relatively the same. 
-  
+![math_scores_by_grafe](Resources/math_scores_by_grade.png)
+
 #### Scores by school spending
   - When replacing the ninth grade scores at Thomas High School with NaN, we see that the scores based on school spending does not change the dataframe. The average reading and math scores, as well as the percentage rates do not change. 
-  
+![reading_scores_by_grade](Resources/reading_scores_by_grade.png) 
+
  #### Scores by school size
   - When replacing the ninth grade scores at Thomas High School with NaN, we see that the scores based on school size does not change the data frame. The average reading and math scores, as well we the percentage rates do not change with the negation of ninth graders' at Thomas High School.
-  
+![scores_by_size](Resources/scores_by_size.png)
+ 
+ 
  #### Scores by school type
   - When replacing the ninth grade scores at Thomas High School with NaN, we see that the scores based on school size does not change the data frame. The average reading and math scores, as well we the percentage rates do not change with the negation of ninth graders' at Thomas High School.
-  
+![scores_by_type](Resources/scores_by_type.png) 
+ 
+ 
  ## Summary 
  There are four major changes to the school district summary analysis due to the negation of ninth graders' scores at Thomas High School. The first change is the overall passing rate column in the school district summary data frame. When we removed the 9th grade scores, we see a dramatic decrease in the overall passing rate for the district summary since the ninth grade scores were so high. The inccorrect data gave the validation for the unchanged dataset including academic dishonesty. The second major change was the total number of students. Taking out the 9th graders reduces the total number of students. The third major change was in the school summary data frame. When removing the 9th graders' scores, we see a dramatic increase in the school overall passing rate for Thomas High school because we took out the 9th grade data and compared the passing rate wiht only the 10th-12th graders at Thomas High School. The fourth major change was that when removing the 9th graders and only accounting for the 10th - 12th graders at Thomas High School, we see that their school summary changes in the percent overall passing column due to the reduces student population. The studnets at Thomas High School were individually compared to a smaller number of students, making them rank higher in the school summary because we removed data. 
  
