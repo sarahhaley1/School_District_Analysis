@@ -19,7 +19,9 @@ We were able to obtain the values of test scores for each grade in each school t
   
 #### Replacing Ninth Graders' math and reading scores relative affect
   - When we replace the ninth grade scores NaN and only account for the 10th - 12th graders at Thomas High School, we see that the overall passing for Thomas High School in comparison to other schools we see that there is a very high passing rate compared to other schools in the data set. When we replace the scores, we see that Thomas High School is apart of the top 5 as number 2 statistics wise. Thus we see that Thomas High School is a high performing school, even with the ninth grade scores taken out. However, we aren't able to compare the ninth grade class at Thomas High School to other schools, which takes out data, making Thomas High School look like they are performing better. The passing rate increases immensely when we remove 9th grade from Thomas High School data. 
-![top_5](Resources/top_5/png)
+
+![top_5](Resources/top_5.png)
+
 #### Math and reading scores by grade
   - When replacing ninth grade scores at Thomas High School, we see that it negates the scores for 9th graders at Thomas High School but everything else stays relatively the same. 
 ![math_scores_by_grafe](Resources/math_scores_by_grade.png)
